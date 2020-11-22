@@ -13,6 +13,7 @@ public class BinarySearch {
         int [] arr = {2,1,3,5,6,7,8,9,10};
         int[] ints = binarySearch(arr);
         System.out.println(ints.toString());
+	//随便加一行注释回忆一下
     }
 
     private static int [] binarySearch(int [] arr){
