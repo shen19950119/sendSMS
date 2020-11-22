@@ -17,7 +17,7 @@ public class solution {
             while(i<=j)
             {
                 int mid=(i+j)/2;
-                if(nums[mid]==mid)
+                if(num[mid]==mid)
                 {
                     if(mid!=nums.size()-1)
                     {
@@ -32,7 +32,7 @@ public class solution {
                 {
                     return 0;
                 }
-                else if(nums[mid-1]==mid-1 && mid>0)
+                else if(num[mid-1]==mid-1 && mid>0)
                 {
                     return mid;
                     // break;
@@ -42,7 +42,7 @@ public class solution {
                     j=mid-1;
                 }
             }
-            return nums[i]-1;
+            return num[i]-1;
         }
     }
 
